@@ -5,7 +5,7 @@ import requests
 load_dotenv()
 
 URL = "https://api.weatherapi.com/v1/current.json"
-KEY = os.environ.get("WEATHER_API_KEY")
+KEY = os.environ.get("API_KEY")
 FILTERING = {
     "q": "Paris",
     "key": KEY
